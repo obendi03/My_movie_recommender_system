@@ -19,7 +19,7 @@ from rest_framework import routers
 from movie_recommender import views
 
 router = routers.DefaultRouter()
-router.register(r'movie_recommender', views.TodoView, 'movie_recommender')
+router.register(r'movie_recommender', views.MovieView, 'movie_recommender')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
