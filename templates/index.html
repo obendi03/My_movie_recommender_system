@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %} <h1>My movie Recommender system</h1>  {% endblock %}
+
+
+{% block body %} 
+<h1>Hello this will be my recommender system</h1>  
+
+<form action="{{ url_for('recommend')}}" method="post">
+    <div class="form-group">
+        <label for="movie">Enter a movie name</label>
+        <input type="text" class="form-control" id="movie" name="movie" placeholder="Enter a movie name">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    
+    {% if movies %}
+        <h2>Recommendations for you</h2>
+        <ul>
+            {% for movie in movies %}
+                <li>{{ movie }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+
+{% endblock %}

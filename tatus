@@ -1,0 +1,31 @@
+[33mcommit e835afef439dcbe79efaeaae36d2cc4d49821370[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Oláh Bendegúz István <obendi2003@gmail.com>
+Date:   Tue Sep 17 18:39:08 2024 +0200
+
+    change into flask
+
+[33mcommit f02b70bebc3eb5fb298dde8deb0f1852241cf449[m
+Author: Oláh Bendegúz István <obendi2003@gmail.com>
+Date:   Tue Sep 17 18:37:48 2024 +0200
+
+    Revert "Initial commit"
+    
+    This reverts commit a7e06291c66ee02e15027ac8dbe46994e120723d.
+
+[33mcommit 3dac0e41b79f0905e86221df28e0889a7949ae2a[m
+Author: Oláh Bendegúz István <obendi2003@gmail.com>
+Date:   Tue Sep 10 20:18:31 2024 +0200
+
+    added datasets, and id for the Movie entity
+
+[33mcommit c28da101b2561050ecdf1bdf98c69fac10a321a6[m
+Author: Oláh Bendegúz István <obendi2003@gmail.com>
+Date:   Tue Sep 10 18:31:47 2024 +0200
+
+    initial state of the django server done
+
+[33mcommit a7e06291c66ee02e15027ac8dbe46994e120723d[m
+Author: Oláh Bendegúz István <144063799+obendi03@users.noreply.github.com>
+Date:   Sat Sep 7 14:30:58 2024 +0200
+
+    Initial commit
