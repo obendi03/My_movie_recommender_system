@@ -1,0 +1,10 @@
+Use cases for a recommendation:
+    1. search for a movie by title
+    2. if movie is in the database (which is equivalent to the database that used duting ml model training)
+        -movie in database: give recommendation by using mode. predict() function
+         (previously we were looking for the id during the search for the movie
+        
+        -movie is NOT in the database: TODO (OR recommend by popularity score)
+    3. User can ask for 5,10,50 rcommendations
+
+    
