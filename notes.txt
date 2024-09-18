@@ -7,4 +7,4 @@ Use cases for a recommendation:
         -movie is NOT in the database: TODO (OR recommend by popularity score)
     3. User can ask for 5,10,50 rcommendations
 
-    
+    4. when you recommend a list of movies image should be next to the movie data as well
